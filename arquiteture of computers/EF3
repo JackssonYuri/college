@@ -32,7 +32,7 @@ Quais são os números de acertos e faltas quando se usam a no-write allocate e 
 
 No write allocate writallocate miss Read Mem[300]; miss miss Write Mem[100]; hit miss Write Mem[100]; hit miss Read Mem[200]; miss hit Write Mem[200]; hit miss Read Mem[100]; hit hit Write Mem[100]; hit miss Write Mem[100]; hit
 
-5 miss 2 miss 2 hit 6 hit
+5 miss 3 miss 2 hit 6 hit
 
 3) Qual tem a menor taxa de falta: uma cache de instruções de 16 KiB com uma cache de dados de 16 KiB ou uma cache unificada de 32 KiB? Use as taxas de falta da Figura abaixo para ajudar a calcular a resposta correta, considerando que 36% das instruções são instruções de transferência de dados. Considere que um acerto utiliza um ciclo de clock e a penalidade por falta é de 100 ciclos de clock. Um acerto no load ou store utiliza um ciclo de clock extra em uma cache unificada se houver apenas uma porta de cache para atender a duas solicitações simultâneas. Qual é o tempo médio de acesso à memória em cada caso? Considere caches write-through com um buffer de escrita e ignore os stalls devidos ao buffer de escrita.
 
